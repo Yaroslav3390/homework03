@@ -23,9 +23,9 @@ class BMI {
                         //Task 3
 class TemperatureConverter {
                             public static void main(String[] args) {
-                                double degreeCelsius = 32;
+                                double degreesCelsius = 32;
                                 double degreesFahrenheit;
-                                degreesFahrenheit = (9d/5d) * 32 + 32;
+                                degreesFahrenheit = (9d/5d) * degreesCelsius + 32;
                                 System.out.println("Temperature in Fahrenheit is: " + degreesFahrenheit);
                             }
                         }
@@ -34,10 +34,8 @@ class TemperatureConverter {
    class Task4 {
                                 public static void main(String[] args) {
                                     int a = 2147483647;
-                                    int b = 1;
-                                    int c;
-                                    c = a + b;
-                                    System.out.println("Result is: " + c);
+                                    ++a;
+                                    System.out.println(a);
 
                                 }
 }
@@ -55,11 +53,10 @@ class TemperatureConverter {
                             //Task 6
                 class AgeCheck {
                                 public static void main(String[] args) {
-                                    int firstAge = 32;
-                                    int secondAge = 18;
+                                    int a = 32;
+                                    int b = 18;
+                                    boolean c = a >= b;
 
-                                    boolean isAge;
-                                    isAge = firstAge >= secondAge;
-                                    System.out.println(isAge);
+
                                 }
                             }
