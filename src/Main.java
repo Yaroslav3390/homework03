@@ -1,17 +1,65 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
-public class Main {
+                //Task 1
+class Square {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
-
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
-
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+        int a = 2, b = 5;
+        int  sqrt;
+        sqrt = a * b;
+        System.out.println("Square root is:" + sqrt);
     }
 }
+                //Task 2
+class BMI {
+                    public static void main(String[] args) {
+                        double weight = 77;
+                        double height = 1.76;
+                        double BMI;
+                        BMI = weight/ (height * height);
+                        System.out.println("BMI for weight " + weight + "kg");
+                        System.out.println("and height " + height + "m");
+                        System.out.println("is equivalent to " + BMI + ".");
+
+                    }
+                }
+                        //Task 3
+class TemperatureConverter {
+                            public static void main(String[] args) {
+                                double degreeCelsius = 32;
+                                double degreesFahrenheit;
+                                degreesFahrenheit = (9d/5d) * 32 + 32;
+                                System.out.println("Temperature in Fahrenheit is: " + degreesFahrenheit);
+                            }
+                        }
+
+                            //Task 4
+   class Task4 {
+                                public static void main(String[] args) {
+                                    int a = 2147483647;
+                                    int b = 1;
+                                    int c;
+                                    c = a + b;
+                                    System.out.println("Result is: " + c);
+
+                                }
+}
+                            //Task 5
+                class RoundingNumber {
+                                public static void main(String[] args) {
+                                    double myDouble = 8.5;
+                                    int myInt = (int) myDouble;
+                                    System.out.println("fractional value: " + myDouble );
+                                    System.out.println("rounded number: " + myInt);
+
+                                }
+                            }
+
+                            //Task 6
+                class AgeCheck {
+                                public static void main(String[] args) {
+                                    int firstAge = 32;
+                                    int secondAge = 18;
+
+                                    boolean isAge;
+                                    isAge = firstAge >= secondAge;
+                                    System.out.println(isAge);
+                                }
+                            }
